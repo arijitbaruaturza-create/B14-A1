@@ -1,0 +1,43 @@
+/* Unversal */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Common Container */
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* Common Button */
+.common-btn{
+    background-color: #1d4ed8;
+    color: white;
+    font-size: 15px;
+    padding: 15px 25px;
+    border: 1px solid #1d4ed8;
+    border-radius: 15px;
+}
+
+/* Navbar */
+#nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+#nav-list ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #575757;
+}
