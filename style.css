@@ -38,7 +38,7 @@
     align-items: center;
 }
 
-a{
+nav a{
     text-decoration: none;
     color: #575757;
 }
@@ -162,7 +162,6 @@ a{
 
 .price-card h2{
     font-size:46px;
-    /* color:#0f172a; */
     margin-bottom:5px;
 }
 
@@ -223,4 +222,32 @@ a{
 .price-container .middle-card button{
     background-color: #2563eb;
     color: white;
+}
+
+/* Footer style */
+.footer-left{
+    display: flex;
+    align-items: center;
+    color: #888888;
+    gap: 10px;
+}
+
+.footer-right ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-right a{
+    text-decoration: none;
+    color: #888888;
+}
+
+.footer-container{
+    background-color: #0e1b2b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
 }
