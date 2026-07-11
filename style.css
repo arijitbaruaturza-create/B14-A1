@@ -227,18 +227,23 @@ nav a{
 /* Schedule style*/
 .schedule-root.container{
     display: flex;
-    justify-content: center;
+    gap: 30px;
+    align-items: flex-start;
 }
 
 .schedule-root{
-    display: flex;
-    gap: 18px;
+    /* gap: 0px; */
     margin: 40px auto;
-    padding: 0 30px;
+    padding: 0 40px;
+}
+
+.schedule-card{
+    flex: 1;
 }
 
 .schedule-card img{
-    width: 90%;
+    width: 100%;
+    display: block;
     border: 1px;
     border-radius: 15px;
 }
@@ -246,7 +251,9 @@ nav a{
 .session{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    flex: 1.5;
+    gap: 30px;
+    line-height: 1.4;
 }
 
 /* Footer style */
